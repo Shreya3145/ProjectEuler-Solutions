@@ -24,4 +24,5 @@ More problems coming soon! 🚀
   javac Problem1.java
   java Problem1
 ```
+<br>
 <img src="https://projecteuler.net/profile/Shrey_a.png"></img>
