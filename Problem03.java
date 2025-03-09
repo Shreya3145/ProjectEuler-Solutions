@@ -1,22 +1,19 @@
-import java.util.Scanner;
-
 public class Problem03 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        long n = sc.nextLong();
+        final long n = 600851475143l;
         factor(n);
     }
-    public static long factor(long n) {
+    public static void factor(long n) {
         long i = 2;
+        long ans = 0;
         while (i <= n) {
             if (n % i == 0) {
-                System.out.println(i);
+                ans = i;
                 n = n / i;
             } else {
                 i++;
             }
         }
-        return i;
+      System.out.println(ans);
     }
 }
