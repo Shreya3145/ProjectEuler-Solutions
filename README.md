@@ -18,7 +18,10 @@ More problems coming soon! 🚀
    ```bash
    git clone https://github.com/your_username/project-euler-java.git
    cd project-euler-java
+
 2. Complie and Run:
 ```bash
   javac Problem1.java
   java Problem1
+```
+<img src="https://projecteuler.net/profile/Shrey_a.png"></img>
